@@ -39,6 +39,9 @@
 
                     <label for="Origem">Cidade origem(City From):  </label>
                     <select name="Origem" required>
+                        <optgroup label="Nenhuma">
+                            <option value="Não listado">Não listado</option>
+                        </optgroup>
                         <optgroup label="França(France)">
                             <option value="Paris">Paris</option>
                             <option value="Lille">Lille</option>
@@ -85,6 +88,9 @@
 
                     <label for="Destino">Cidade destino(City to):  </label>
                     <select name="Destino" required>
+                        <optgroup label="Nenhuma">
+                            <option value="Não listado">Não listado</option>
+                        </optgroup>
                         <optgroup label="França(France)">
                             <option value="Paris">Paris</option>
                             <option value="Lille">Lille</option>
@@ -129,7 +135,7 @@
                         </optgroup>
                     </select>
                     <label for="infor">Informações extras (opcional)</label>
-                    <textarea name="infor" placeholder="Escreva aqui informações extras, Exemplo: Quero a viagem no horário X com clima Y"></textarea>
+                    <textarea name="infor" placeholder="Caso a sua cidade não apareça na lista acima, deixe como 'Não Listado' e escreva aqui a rota"></textarea>
                     <button type="submit">Enviar</button>
                 </div>
                 
