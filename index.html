@@ -13,6 +13,7 @@
     <div class="section">
         <article class="form-trip">
             <form action="https://formsubmit.co/felipematosdorea9@gmail.com" method="POST">
+                <h1 class="title">pedidos de viagens</h1>
                 <div class="form-1">
                     <label for="name">Nome(name):  </label>
                     <input type="text" name="name" required>
@@ -23,6 +24,17 @@
                     <label for="Jogo">Jogo (Game):  </label>
                     <select name="Jogo" required>
                         <option value="Fernbus">Fernbus Coach Simulator</option>
+                    </select>
+                    <label for="Jogo">Onibus (Bus):  </label>
+                    <select name="Jogo" required>
+                        <option value="Man Lion's Coach 2nd Generation">Man Lion's Coach 2nd Generation</option>
+                        <option value="Man Lion's Coach 3rd Generation">Man Lion's Coach 3rd Generation</option>
+                        <option value="Scania">Scania</option>
+                        <option value="Setra Comfort Class S515">Setra Comfort Class S515</option>
+                        <option value="Setra Comfort Class S516">Setra Comfort Class S516</option>
+                        <option value="Setra Comfort Class S516-HD">Setra Comfort Class S516-HD</option>
+                        <option value="Setra Comfort Class S517">Setra Comfort Class S517</option>
+                        <option value="Setra Comfort Class S519">Setra Comfort Class S519</option>
                     </select>
 
                     <label for="Origem">Cidade origem(City From):  </label>
@@ -116,9 +128,11 @@
                             <option value="Gent">Gent</option>
                         </optgroup>
                     </select>
-                    
+                    <label for="infor">Informações extras (opcional)</label>
+                    <textarea name="infor" placeholder="Escreva aqui informações extras, Exemplo: Quero a viagem no horário X com clima Y"></textarea>
+                    <button type="submit">Enviar</button>
                 </div>
-                <button type="submit">Enviar</button>
+                
 <!--                 <input type="hidden" name="_next" value="obrigado.html"> -->
            </form>
         </article>
